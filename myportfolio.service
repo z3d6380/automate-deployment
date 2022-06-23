@@ -6,7 +6,6 @@ After=network.target
 User=root
 Group=root
 WorkingDirectory=/root/flask-portfolio-site/
-Environment="PATH=/root/flask-portfolio-site/python3-virtualenv/bin"
 ExecStart=/root/flask-portfolio-site/python3-virtualenv/bin/python /root/flask-portfolio-site/python3-virtualenv/bin/flask run --host=0.0.0.0
 Restart=always
 
