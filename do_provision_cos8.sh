@@ -45,7 +45,7 @@ sudo systemctl start docker
 sudo systemctl enable docker
 
 # Download redeploy script
-curl -L https://raw.githubusercontent.com/z3d6380/automate-deployment/main/redeploy-site.sh > redeploy-site.sh && chmod 750 ./redeploy-site.sh
+curl -L https://raw.githubusercontent.com/z3d6380/automate-deployment/main/redeploy-site.sh > ~/redeploy-site.sh && chmod 750 ~/redeploy-site.sh
 
 # Run redeploy script
 ~/redeploy-site.sh
